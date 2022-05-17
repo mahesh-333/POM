@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.jdevs</groupId>
-  <artifactId>CloudGen-Test</artifactId>
-  <version>1.1</version>
+  <artifactId>Thanish_InfoTech</artifactId>
+  <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -15,10 +15,7 @@
           <target>1.8</target>
         </configuration>
 
-<!--- Hello this is comment line in this file
-
-Here we are giving war package format
--->
+<!--- hi this is comment line in this file-->
 
 
       </plugin>
@@ -36,12 +33,12 @@ Here we are giving war package format
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://192.168.205.130:8081/repository/Nexus_Sample/</url>
+            <url>http://3.110.56.132:8081/repository/Mahesh/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://192.168.205.130:8081/repository/Nexus_Snap/</url>
+            <url>http://3.110.56.132:8081/repository/Mahesh-Snap/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
